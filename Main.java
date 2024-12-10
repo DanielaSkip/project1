@@ -2,7 +2,7 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        sum( a:12 b: 15);
+        sum( 12, 15);
 
     }
         public static void sum (int a , int b){
