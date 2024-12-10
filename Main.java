@@ -2,14 +2,22 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        sum( 12, 15);
 
+        sum(1, 2, 3);
+        sum("a", "3");
     }
         public static void sum (int a , int b){
             int rez = a + b;
             System.out.println("Summa a un b ir :"+rez);
         }
-
+    public static void sum (int a , int b, int c){
+        int rez = a + b +c;
+        System.out.println("Summa a un b ir :"+rez);
+    }
+    public static void sum (String a , String b){
+        String rez = a + b;
+        System.out.println("Virknes summa a un b ir :"+rez);
+    }
 
 
     public static void batter(){
